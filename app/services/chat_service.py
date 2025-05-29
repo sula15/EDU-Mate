@@ -11,8 +11,8 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 from PIL import Image
 
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Milvus
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Milvus
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 from app.models.chat import (

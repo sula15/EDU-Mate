@@ -38,8 +38,21 @@ pillow>=10.2.0
 aiofiles>=24.1.0
 websockets>=14.1
 
+# API Testing (for test_api.py)
+aiohttp>=3.9.0
+requests>=2.31.0
+
+# Document Processing
+PyMuPDF>=1.23.0  # for PDF processing
+python-pptx>=0.6.23  # for PPTX files
+
 # Optional: Background Tasks (comment out if not needed)
 # redis>=5.0.1
 # celery>=5.3.4
 
+# Email validation
 email-validator>=2.0.0
+
+# Additional utilities
+python-magic>=0.4.27  # for file type detection
+tqdm>=4.66.0  # for progress bars

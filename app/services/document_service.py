@@ -12,10 +12,10 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional, BinaryIO
 from pathlib import Path
 
-from langchain.document_loaders import PyMuPDFLoader
+from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Milvus
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Milvus
 
 from app.models.document import (
     DocumentUpload, DocumentInfo, ProcessingResult, ProcessingConfig,
