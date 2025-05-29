@@ -56,3 +56,10 @@ email-validator>=2.0.0
 # Additional utilities
 python-magic>=0.4.27  # for file type detection
 tqdm>=4.66.0  # for progress bars
+
+contourpy-1.3.2 
+cycler-0.12.1 
+fonttools-4.58.1 
+kiwisolver-1.4.8 
+matplotlib-3.10.3 
+pyparsing-3.2.3
